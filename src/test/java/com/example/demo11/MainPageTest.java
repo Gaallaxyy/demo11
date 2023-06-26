@@ -29,10 +29,10 @@ public class MainPageTest {
         mainPage = new MainPage(driver);
     }
 
-    @AfterEach
-    public void tearDown() {
-        driver.quit();
-    }
+   // @AfterEach
+    //public void tearDown() {
+    //    driver.quit();
+   // }
 
     @Test
     public void search() {
